@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(185, 185, 250);
+    height: 44px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+#name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 14px;
+}
+
+.area1 {
+    width: 100%;
+    right: 668px;
+    background-color: rgba(243, 241, 231, 0.377);
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+
+.texto {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 230px;
+    margin-left: 180px;
+    text-align: center;
+}
+
+#p3 {
+    font-size: 18px;
+}
+
+.area2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.area2 h2 {
+    font-size: 32px;
+}
+
+.area2 p {
+    font-size: 18px;
+}
+
+.set1 {
+    gap: 10px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+}
+
+fieldset {
+    border: 0;
+}
+
+.nome {
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+    font-size: 18px;
+}
+
+.sobrenome {
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+    font-size: 18px;
+}
+
+.set1 input[type="text"] {
+    padding: 0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.set2 input[type="email"] {
+    padding: 0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.email {
+    margin-top: 15px;
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+    font-size: 18px;
+    justify-content: center;
+    margin-left: 415px;
+}
+
+#sexualidade {
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.set3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sexualidade2 {
+    margin-top: 15px;
+}
+
+#area1 {
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.area2 {
+    margin-top: 15px;
+}
+
+#hab {
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.set5 select {
+    padding: 0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.habilidade2 {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+#tec1 {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.tec2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-top: 55px;
+    justify-content: center;
+    gap: 7px;
+}
+
+.set6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#experiencia {
+    display: flex;
+    margin-top: 25px;
+    border: solid black;
+    margin-left: 37.5%;
+    background-color: white;
+}
+
+.botao {
+    font-size: 1.2em;
+    background-color: rgba(127, 127, 235);
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 640px;
+}
+
+.botao:hover {
+    background: rgb(82, 82, 250);
+    box-shadow: 2px 2px 2px black;
+    text-shadow: none;
+}
+
+.rodape {
+    margin-top: 100px;
+    background-color: rgb(185, 185, 250);
+    height: 64px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-left: 1%;
+    padding-top: 10px;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecalho">
+            <div class="logo">
+                <img src="./img/Design sem nome (33).png" alt="Logo da empresa">
+            </div>
+            <p id="name">Code life</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="area1">
+            <div class="texto">
+                <p id="p1">
+                    Está procurando uma vaga de emprego?
+                </p>
+                <p id="p2">Aqui na Code Life você pode encontrar.</p>
+                <p id="p3">· Estamos disponibilizando duas vagas na empresa.</p>
+            </div>
+            <img src="./img/pessoas.png" alt="">
+        </div>
+
+        <div class="area2">
+            <h2>Cadastre-se Aqui!</h2>
+            <p>insira suas informações aqui</p>
+        </div>
+
+        <div class="formulario">
+            <section id="formback">
+                <form>
+                    <fieldset>
+                        <div class="set1">
+
+                            <div class="nome">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="nome" required>
+                            </div>
+
+                            <div class="sobrenome">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" name="sobrenome" id="sobrenome" required>
+                            </div>
+
+                        </div>
+                        <div class="set2">
+                            <div class="email">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                        </div>
+
+                        <div class="set3">
+                            <div class="genero">
+                                <p id="sexualidade">Qual seu gênero?</p>
+
+                                <div class="sexualidade2">
+                                    <label>
+                                    <input type="radio" name="masculino" value="masculino">Masculino
+                                </label>
+                                    <label>
+                                    <input type="radio" name="feminino" value="feminino">Feminino
+                                </label>
+                                    <label>
+                                    <input type="radio" name="naobinario" value="naobinario">Não-binário
+                                </label>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="set4">
+
+                            <div class="area">
+
+                                <p id="area1">Qual sua área?</p>
+
+                                <div class="area2">
+                                    <label>
+                                    <input type="radio" name="frontend" value="frontend" >Front-end
+                                </label>
+                                    <label>
+                                    <input type="radio" name="backend" value="backend">Back-end
+                                </label>
+                                    <label>
+                                    <input type="radio" name="fullstack" value="fullstack">Full-Stack
+                                </label>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="set5">
+                            <label id="hab" for="habilidade">Qual sua habilidade?</label>
+
+                            <div class="habilidade2">
+                                <select id="habilidade">
+                                <option selected disabled value="">Selecione</option>
+                                <option>Estágio</option>
+                                <option >Suporte</option>
+                                <option >Junior</option>
+                                <option >Pleno</option>
+                                <option>Senior</option>
+    
+                            </select>
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset class="tec">
+                        <label id="tec1">Selecione as tecnologias que usa:</label>
+
+                        <div class="tec2">
+
+                            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="html">
+                            <label for="">HTML</label>
+
+                            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="css">
+                            <label for="">CSS</label>
+
+                            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="javascript">
+                            <label for="">JavaScript</label>
+
+                            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="php">
+                            <label for="">PHP</label>
+
+                            <input type="checkbox" id="tecnologia5" name="tecnologia5" value="c#">
+                            <label for="">C#</label>
+
+                            <input type="checkbox" id="tecnologia6" name="tecnologia6" value="python">
+                            <label for="">Python</label>
+
+                            <input type="checkbox" id="tecnologia7" name="tecnologia7" value="react">
+                            <label for="">React-Js</label>
+
+                            <input type="checkbox" id="tecnologia88" name="tecnologia8" value="c++">
+                            <label for="">C++</label>
+
+                        </div>
+
+
+
+                    </fieldset>
+                    <div class="set6">
+
+                        <label id="experiencia1">Conte um pouco sobre a sua experiência</label>
+
+                        <textarea name="experiencia" id="experiencia" cols="30" rows="4" style="width: 26em"></textarea>
+
+                    </div>
+
+
+
+                    <button class="botao" type="submit">Enviar</button>
+
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <div class="icons">
+                <img src="./img/linkedin.png" alt="">
+                <img src="./img/facebook.png" alt="">
+                <img src="./img/instagram.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
